@@ -1,0 +1,163 @@
+/*Limpar fomatacões padrões*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #10111e;
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/*Layout*/
+
+#area-cabecalho {
+    background-image: url(img2/back-fundo.jpg);
+    padding: 15px;
+    text-align: center;
+}
+#area-logo, #area-menu {
+    padding: 10px;
+}
+
+#area-principal {
+    width: 960px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+#area-principal-produtos {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 20px;
+    float: left;
+}
+
+#area-produtos {
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+    float: left;
+}
+
+.postagem-lateral {
+    font-size: 0.8em;
+    padding: 5px;
+    /*border-bottom: 1px dotted #711500;*/
+}
+
+/*#area-lateral {
+    background: #fadca8;
+}*/
+#area-postagens {
+    width: 660px;
+    float: left;
+}
+#area-lateral {
+    width: 240px;
+    float: right;
+}
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: #fadca8;
+}
+
+.postagem-produtos {
+    padding: 10px;
+    margin-bottom: 5px;
+    background: #fadca8;
+}
+
+.conteudo-lateral {
+    background: #fadca8;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+#rodape {
+    background: #878787;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+/*Formatação do menu*/
+
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color: #711500;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
+    color: white;
+    padding: 8px 12px;
+    font-size: 1.7em;
+}
+#area-cabecalho a:hover {
+    color: #f7b600;
+    background: white;
+    text-decoration: none;
+}
+
+/*formatações gerais*/
+
+h1 {
+    color: #175770;
+    font-size: 4em;
+    font-family: euphorigenic;
+}
+h2 {
+    color: #711500;
+    font-family: Dubiel;
+}
+
+h3 {
+    color: #711500;
+    background: #f7b600;
+    padding: 5px;
+}
+h5 {
+    color: #175770;
+    font-family: Dubiel;
+    font-size: 1.5em;
+}
+p {
+    padding-bottom: 10px;
+}
+
+.branco {
+    color: white;
+}
+
+.data-postagem {
+    font-size: 0.8em;
+    border-bottom: 1px solid #fadca8;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.img-margin {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*Animações*/
+
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+}
+/*importações*/
+@font-face {
+    font-family: Dubiel;
+    src: url(fonte/Dubiel.ttf);
+    font-family: euphorigenic;
+    src: url(fonte/euphorigenic.ttf);
+}

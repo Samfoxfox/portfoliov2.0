@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Modo Escuro</title>
+
+	<style>
+		
+        body {
+        padding: 25px;
+        background-color: white;
+        color: black;
+        font-size: 25px;
+      }
+      .dark-mode {
+        background-color: #10111e;
+        color: white;
+      }
+      .light-mode {
+        background-color: white;
+        color: black;
+      }
+		
+	</style>
+
+</head>
+<body>
+
+    <h1>GeeksForGeeks</h1>
+  
+    <p>
+      This is a sample GeeksForGeeks Text. 
+      Dark Mode Websites using Html CSS &
+      Javascript
+    </p>
+  
+    <h3 id="DarkModetext">Dark Mode is OFF</h3>
+    <button onclick="darkMode()">Darkmode</button>
+    <button onclick="lightMode()">LightMode</button>
+    <script>
+      function darkMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "dark-mode";
+        content.innerText = "Dark Mode is ON";
+      }
+      function lightMode() {
+        var element = document.body;
+        var content = document.getElementById("DarkModetext");
+        element.className = "light-mode";
+        content.innerText = "Dark Mode is OFF";
+      }
+    </script>
+
+</body>
+</html>

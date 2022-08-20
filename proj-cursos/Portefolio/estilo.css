@@ -1,0 +1,358 @@
+/*geral*/
+
+body {
+    background: #3E065F;
+}
+
+/*background-animado
+body {
+    background: linear-gradient(-45deg, #000000, #3E065F, #700B97, #8E05C2);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+ 
+    50% {
+        background-position: 100% 50%;
+    }
+ 
+    100% {
+        background-position: 0% 50%;
+    }
+}
+*/
+
+/*gerais*/
+a {
+    text-decoration: none;
+    color: black;
+    font-family: 'MuseoModerno';
+}
+
+h1 {
+    font-family: 'MuseoModerno';
+    color: #EEEEEE;
+}
+
+h2 {
+    font-family: 'MuseoModerno';
+}
+
+h3 {
+    font-family: 'MuseoModerno';
+    color: #8FD6E1;
+    font-size: 1.7em;  
+}
+h4 {
+    font-family: 'MuseoModerno';
+    color: #8FD6E1;
+}
+
+/*cabecalho*/
+
+#area-cabecalho {
+    border: 1px solid #EEEEEE;
+    border-radius: 20px;
+    background: #EEEEEE;
+    width: 99.8%;
+    padding: 0.2px;
+    position: relative;
+}
+
+.cabecalho {
+    margin-left: 20px;
+}
+
+#area-menu {
+    color: #EEEEEE;
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translate(-5%, -50%);
+}
+
+/*area central*/
+
+#area-principal {
+    width: 1100px;
+    margin: auto;
+    text-align: left;
+    padding: 20px;
+}
+
+/*sobre mim*/
+
+#intro-eu {
+    color: #cccccc51;
+}
+
+#conteudo {
+    color: #EEEEEE;
+    font-size: 1.3em;
+    text-align: justify;
+    width: 400px;
+    height: 400px;
+    margin: 30px;
+    position: absolute;
+    left: 60%;
+    top: 1150px;
+    transform: translate(-5%, -50%);
+}
+#cvc-poss {
+    position: absolute;
+    left: 70%;
+    top: 1300px;
+    transform: translate(-5%, -50%);
+}
+
+
+/*habilidades*/
+
+.progress{
+    margin: 20px;
+    width: 50%;
+    height: 20px;
+    background: #000000;
+    border-radius: 20px;
+}
+  
+.progress .status{
+    background: #ffffff;
+    float: left;
+    height: 100%;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 1.8;
+    border-radius: 20px;
+}
+
+#progre-1 {
+    font-family: 'MuseoModerno';
+    font-size: 1.6em;
+    color: #EEEEEE;
+    position: absolute;
+    right: 20%;
+    top: 1680px;
+    transform: translate(-5%, -50%);
+}
+#progre-2 {
+    font-family: 'MuseoModerno';
+    font-size: 1.6em;
+    color: #EEEEEE;
+    position: absolute;
+    right: 21.5%;
+    top: 1800px;
+    transform: translate(-5%, -50%);
+}
+#progre-3 {
+    font-family: 'MuseoModerno';
+    font-size: 1.6em;
+    color: #EEEEEE;
+    position: absolute;
+    right: 22%;
+    top: 1920px;
+    transform: translate(-5%, -50%);
+}
+#progre-4 {
+    font-family: 'MuseoModerno';
+    font-size: 1.6em;
+    color: #EEEEEE;
+    position: absolute;
+    right: 21.2%;
+    top: 2030px;
+    transform: translate(-5%, -50%);
+}
+
+#titulo-est {
+    position: absolute;
+    left: 20%;
+    /*top: 2030px;*/
+    transform: translate(-50%);
+}
+
+.est-fonts {
+    font-size: 1em;
+    font-family: 'Silkscreen';
+    color: #03C4A1;
+}
+.est-fonts2 {
+    font-size: 1em;
+    font-family: 'Silkscreen';
+    color: #8FD6E1;
+}
+.img-est {
+    width: 50%;
+    position: absolute;
+    right: 30%;
+    top: 2150px;
+    transform: translate(50%, 10%);
+}
+#img-sombra {
+    box-shadow: #000;
+}
+
+
+/*projetos*/
+
+#principal-projt {
+    border: 1px solid rgba(255, 255, 255, 0);
+}
+.conteudo-projt {
+    border: 1px solid rgba(128, 128, 128, 0);
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    margin: 10px;
+    float: left;
+}
+
+/*projetos em andamentos*/
+
+#central-titulo {
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#marg-a1 {
+    border: 1px solid rgba(255, 0, 0, 0);
+    padding-left: 10%;
+    text-align: center;
+}
+
+.and-proj {
+    border: 1.4px solid #eeeeee00;
+    width: 500px;
+    height: 400px;
+    padding: 30px;
+    margin: auto;
+    float: left;
+    text-align: center;
+
+}
+
+.font-emb {
+    color: #EEEEEE;
+    font-size: 1em;
+    font-family: 'MuseoModerno';
+}
+
+#flo-left {
+    float: left;
+}
+
+/*tamanho texto/imagem*/
+
+.paulosls {
+    font-size: 3em;
+    color: #8FD6E1;
+    font-family: 'MuseoModerno';
+}
+.dev {
+    font-size: 1.8em;
+    color: #cccccc51;
+    font-family: 'MuseoModerno';
+}
+
+.img-1 {
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    left: 60%;
+    top: 45%;
+    transform: translate(-5%, -50%);
+
+}
+
+#img-eu {
+    width: 400px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    left: 17%;
+    top: 1150px;
+    transform: translate(-5%, -50%);
+
+}
+
+/*contato*/
+
+#margin-cot {
+    margin: 30px;
+}
+
+.cor-cont {
+    color: #03C4A1;
+}
+
+#maps {
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.ond-maps {
+    font-family: 'MuseoModerno';
+    font-size: 2em;
+    color: #8FD6E1;
+}
+
+/*final*/
+
+#text-final {
+    font-family: 'Silkscreen';
+    font-size: 50px;
+    color: #8FD6E1;
+}
+
+/*importações*/
+@font-face {
+    font-family: 'MuseoModerno';
+    src: url(fontes/MuseoModerno-Light.ttf);
+}
+@font-face {
+    font-family: 'Silkscreen';
+    src: url(fontes/Silkscreen-Regular.ttf);
+}
+
+/*animações*/
+.grow:hover {
+    -webkit-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    transform: scale(1.3);
+    }
+/*butao*/
+.styled {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: #3E065F;
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.styled:hover {
+    background-color: #8FD6E1;
+}
+
+.styled:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
